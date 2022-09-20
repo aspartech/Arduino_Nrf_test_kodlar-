@@ -2,7 +2,7 @@
 #include <nRF24L01.h>
 #include <RF24.h>
 RF24 radio(9, 10); // CE, CSN
-const byte address[10] = "robotistan100";
+const byte address[10] = "00001";
 void setup() {
   Serial.begin(9600);
   radio.begin();
